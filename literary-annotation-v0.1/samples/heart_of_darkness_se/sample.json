@@ -2,7 +2,7 @@
   "metadata": {
     "dataset_id": "betterreads-literary-annotation-v0.1",
     "dataset_version": "0.1.0",
-    "generated_at": "2026-10-04T10:59:43Z",
+    "generated_at": "2026-10-04T11:49:33Z",
     "sample_id": "heart_of_darkness_se__0000-i",
     "book": {
       "catalog_id": "heart_of_darkness_se",
@@ -23,7 +23,7 @@
       "chapter_ids": [
         "0000-i"
       ],
-      "rationale": "Single-chapter public sample for citeable methodology work. Part I introduces Marlow's frame narrative, the Company stations, and the first mention of Kurtz—enough structure for annotation research without releasing the full production corpus."
+      "rationale": "Single-chapter sample for citeable methodology work. Part I introduces Marlow's frame narrative, the Company stations, and the first mention of Kurtz."
     },
     "included_layers": [
       "chapter_text",
@@ -34,16 +34,7 @@
       "relationships",
       "theme_chapter_scores"
     ],
-    "excluded_layers": [
-      "chapter_lens_companions",
-      "paraphrases",
-      "explain_answers",
-      "study_cards",
-      "booknlp_raw",
-      "embeddings",
-      "full_book_glossary",
-      "full_catalog"
-    ],
+    "scope_note": "Chapter-scoped structured annotation sample; not a full-book companion dump.",
     "licenses": {
       "source_text": "Public domain (US) / CC0-equivalent reuse of PD text",
       "annotations": "CC-BY-4.0"

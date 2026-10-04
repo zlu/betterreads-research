@@ -24,7 +24,3 @@ license: CC-BY-4.0
 repository-code: "https://github.com/zlu/betterreads-research"
 url: "https://www.betterreads.dev/research/literary-annotation-dataset"
 identifiers: []
-# After Zenodo deposit, add:
-# identifiers:
-#   - type: doi
-#     value: 10.5281/zenodo.XXXXXXX

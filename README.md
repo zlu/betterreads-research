@@ -15,7 +15,7 @@ This repository is the public research package. It is not the BetterReads produc
 |------|------------|
 | [`notes/`](notes/) | Methodology notes (also published on the site) |
 | [`literary-annotation-v0.1/`](literary-annotation-v0.1/) | Dataset v0.1: schema + *Heart of Darkness* Part I sample |
-| [`CITATION.cff`](CITATION.cff) | Citation metadata (DOI pending Zenodo) |
+| [`CITATION.cff`](CITATION.cff) | Citation metadata |
 
 ## Dataset v0.1
 
