@@ -1,0 +1,44 @@
+{
+  "themes": [
+    {
+      "id": "colonialism_and_imperialism",
+      "name": "Colonialism and Imperialism",
+      "description": "The book critiques European colonialism in Africa, portraying it as a brutal, exploitative enterprise driven by greed for ivory and power, masked by hollow ideals of civilization and progress."
+    },
+    {
+      "id": "darkness_and_the_human_soul",
+      "name": "Darkness and the Human Soul",
+      "description": "The journey into the Congo symbolizes a descent into the primal, savage aspects of human nature, revealing the capacity for evil and moral decay when removed from societal constraints."
+    },
+    {
+      "id": "madness_and_isolation",
+      "name": "Madness and Isolation",
+      "description": "Kurtz's descent into madness illustrates how isolation in the wilderness, combined with unchecked power and greed, can corrupt and unravel the human psyche."
+    },
+    {
+      "id": "hypocrisy_of_civilization",
+      "name": "Hypocrisy of Civilization",
+      "description": "The contrast between the lofty rhetoric of European 'civilizing missions' and the actual brutality and exploitation in the colonies exposes the hypocrisy at the heart of imperialist ideology."
+    },
+    {
+      "id": "the_wilderness_as_a_force",
+      "name": "The Wilderness as a Force",
+      "description": "The African wilderness is depicted as a vast, indifferent, and vengeful presence that overwhelms and consumes those who invade it, stripping away pretense and revealing inner truths."
+    },
+    {
+      "id": "greed_and_exploitation",
+      "name": "Greed and Exploitation",
+      "description": "The relentless pursuit of ivory drives the narrative, showing how greed dehumanizes both the colonizers and the colonized, reducing people and land to mere resources."
+    },
+    {
+      "id": "the_meaning_of_work",
+      "name": "The Meaning of Work",
+      "description": "Marlow's focus on the practical tasks of navigating and repairing his steamboat serves as a counterpoint to the abstract ideals and moral decay, suggesting that honest work provides a grounding purpose."
+    },
+    {
+      "id": "silence_and_communication",
+      "name": "Silence and Communication",
+      "description": "The pervasive silence of the jungle and the fragmented, whispered conversations among the characters highlight the failure of language to convey the true horror and meaning of the colonial experience."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it."
+title: "BetterReads Literary Annotation Dataset"
+version: "0.1.0"
+date-released: "2026-10-04"
+type: dataset
+authors:
+  - family-names: Lu
+    given-names: Zhao
+    affiliation: BetterReads
+abstract: >-
+  A small, citeable sample of structured literary annotations aligned to
+  public-domain chapter text. Version 0.1 includes Joseph Conrad's Heart of
+  Darkness, Part I: characters, themes, timeline events, glossary terms,
+  relationship subgraph, and theme×chapter scores.
+keywords:
+  - digital humanities
+  - literary annotation
+  - semantic annotation
+  - computational literary studies
+  - reading technology
+  - public domain
+license: CC-BY-4.0
+repository-code: "https://github.com/zlu/betterreads-research"
+url: "https://www.betterreads.dev/research/literary-annotation-dataset"
+identifiers: []
+# After Zenodo deposit, add:
+# identifiers:
+#   - type: doi
+#     value: 10.5281/zenodo.XXXXXXX

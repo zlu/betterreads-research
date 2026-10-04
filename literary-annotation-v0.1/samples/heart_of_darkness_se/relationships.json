@@ -1,0 +1,72 @@
+{
+  "nodes": [
+    {
+      "id": "marlow",
+      "name": "Marlow",
+      "importance": "major",
+      "bio": "The narrator and protagonist, a sailor who travels up the Congo River."
+    },
+    {
+      "id": "kurtz",
+      "name": "Mr. Kurtz",
+      "importance": "major",
+      "bio": "A charismatic ivory trader who has become a god-like figure in the jungle."
+    },
+    {
+      "id": "fresleven",
+      "name": "Fresleven",
+      "importance": "minor",
+      "bio": "The previous captain of the steamer, killed in a dispute over hens."
+    },
+    {
+      "id": "captain",
+      "name": "Captain",
+      "importance": "minor",
+      "bio": "The Swedish captain of the steamer that takes Marlow to the Outer Station."
+    },
+    {
+      "id": "van_shuyten",
+      "name": "Van Shuyten",
+      "importance": "minor",
+      "bio": "A trading company director who helped Marlow get his appointment."
+    }
+  ],
+  "edges": [
+    {
+      "source": "kurtz",
+      "target": "van_shuyten",
+      "type": "cooccurrence",
+      "label": null
+    },
+    {
+      "source": "captain",
+      "target": "kurtz",
+      "type": "cooccurrence",
+      "label": null
+    },
+    {
+      "source": "kurtz",
+      "target": "marlow",
+      "type": "cooccurrence",
+      "label": null
+    },
+    {
+      "source": "captain",
+      "target": "kurtz",
+      "type": "dialogue",
+      "label": null
+    },
+    {
+      "source": "kurtz",
+      "target": "van_shuyten",
+      "type": "dialogue",
+      "label": null
+    },
+    {
+      "source": "kurtz",
+      "target": "marlow",
+      "type": "dialogue",
+      "label": null
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "dataset_id": "betterreads-literary-annotation-v0.1",
+  "dataset_version": "0.1.0",
+  "generated_at": "2026-10-04T10:59:43Z",
+  "sample_id": "heart_of_darkness_se__0000-i",
+  "book": {
+    "catalog_id": "heart_of_darkness_se",
+    "book_id": "heart_of_darkness_se_608kb",
+    "title": "Heart of Darkness",
+    "author": "Joseph Conrad",
+    "language": "English",
+    "publisher": "Standard Ebooks",
+    "source_text": {
+      "original_author": "Joseph Conrad",
+      "translator_status": "public_domain",
+      "upstream_source": "Standard Ebooks (based on public-domain texts)",
+      "source_note": "Standard Ebooks advanced EPUB. Replaces PG catalog id 219."
+    },
+    "reader_url": "https://www.betterreads.dev/discover/heart_of_darkness_se"
+  },
+  "selection": {
+    "chapter_ids": [
+      "0000-i"
+    ],
+    "rationale": "Single-chapter public sample for citeable methodology work. Part I introduces Marlow's frame narrative, the Company stations, and the first mention of Kurtz—enough structure for annotation research without releasing the full production corpus."
+  },
+  "included_layers": [
+    "chapter_text",
+    "characters",
+    "themes",
+    "timeline",
+    "glossary",
+    "relationships",
+    "theme_chapter_scores"
+  ],
+  "excluded_layers": [
+    "chapter_lens_companions",
+    "paraphrases",
+    "explain_answers",
+    "study_cards",
+    "booknlp_raw",
+    "embeddings",
+    "full_book_glossary",
+    "full_catalog"
+  ],
+  "licenses": {
+    "source_text": "Public domain (US) / CC0-equivalent reuse of PD text",
+    "annotations": "CC-BY-4.0"
+  },
+  "attribution": {
+    "creator": "Zhao Lu / BetterReads",
+    "citation_text": "Zhao Lu. BetterReads Literary Annotation Dataset v0.1.0 (Heart of Darkness, Part I sample). BetterReads Research, 2026."
+  },
+  "counts": {
+    "chapters": 1,
+    "characters": 5,
+    "themes": 8,
+    "timeline_events": 6,
+    "glossary_terms": 40,
+    "relationship_nodes": 5,
+    "relationship_edges": 6
+  }
+}

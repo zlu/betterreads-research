@@ -1,0 +1,69 @@
+{
+  "events": [
+    {
+      "id": "marlow_on_the_nellie",
+      "title": "Marlow begins his tale on the Nellie",
+      "summary": "On the Thames, Marlow tells his fellow sailors about his journey to the Congo, reflecting on the darkness of imperialism.",
+      "chapter_id": "0000-i",
+      "characters_involved": [
+        "marlow",
+        "director_of_companies",
+        "lawyer",
+        "accountant"
+      ]
+    },
+    {
+      "id": "marlow_gets_appointment",
+      "title": "Marlow secures a job as a steamboat captain",
+      "summary": "Through his aunt's influence, Marlow is appointed captain of a steamboat for a Belgian trading company in the Congo.",
+      "chapter_id": "0000-i",
+      "characters_involved": [
+        "marlow",
+        "marlows_aunt"
+      ]
+    },
+    {
+      "id": "arrival_at_outer_station",
+      "title": "Marlow arrives at the Outer Station",
+      "summary": "Marlow reaches the company's first station in Africa, witnessing the brutal exploitation and inefficiency of the colonial enterprise.",
+      "chapter_id": "0000-i",
+      "characters_involved": [
+        "marlow",
+        "company_chief_accountant"
+      ]
+    },
+    {
+      "id": "hears_of_kurtz",
+      "title": "Marlow first hears of Kurtz",
+      "summary": "At the Central Station, Marlow learns about the remarkable agent Kurtz, who is highly productive in ivory trading and admired by the company.",
+      "chapter_id": "0000-i",
+      "characters_involved": [
+        "marlow",
+        "manager",
+        "brickmaker"
+      ]
+    },
+    {
+      "id": "steamboat_sabotage",
+      "title": "Marlow's steamboat is wrecked",
+      "summary": "Marlow discovers his steamboat has been deliberately sunk, delaying his journey to Kurtz and revealing the manager's hostility.",
+      "chapter_id": "0000-i",
+      "characters_involved": [
+        "marlow",
+        "manager"
+      ]
+    },
+    {
+      "id": "marlow_ends_tale",
+      "title": "Marlow finishes his story on the Nellie",
+      "summary": "Marlow concludes his narrative, and the narrator reflects on the Thames, now seeming to lead into the heart of an immense darkness.",
+      "chapter_id": "0000-i",
+      "characters_involved": [
+        "marlow",
+        "director_of_companies",
+        "lawyer",
+        "accountant"
+      ]
+    }
+  ]
+}

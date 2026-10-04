@@ -1,0 +1,62 @@
+{
+  "characters": [
+    {
+      "id": "marlow",
+      "primary_name": "Marlow",
+      "aliases": [
+        "Charlie Marlow",
+        "dear Charlie"
+      ],
+      "importance": "major",
+      "first_appearance": "0000-i",
+      "short_bio": "A seasoned sailor who takes a steamboat up an African river and finds the silence of the wilderness watching him like a vengeful force.",
+      "snapshot": "Marlow is the teller of this tale, a seaman who has learned to read the surface of things — hidden banks, sunken snags, the thump of a scraped keel — while suspecting that the inner truth stays hidden. He is grateful to the cannibals who push his tinpot boat and unnerved by white men who seem held captive by a spell. His habit of guessing at the channel, mostly by inspiration, makes him the ideal guide into a world where the reality fades and only the stillness remains."
+    },
+    {
+      "id": "kurtz",
+      "primary_name": "Mr. Kurtz",
+      "aliases": [
+        "Kurtz",
+        "that Kurtz",
+        "this Kurtz",
+        "the gifted Kurtz",
+        "the gifted Mr. Kurtz",
+        "The original Kurtz",
+        "Mistah Kurtz"
+      ],
+      "importance": "major",
+      "first_appearance": "0001-ii",
+      "short_bio": "A gifted ivory trader whose thunder-and-lightning arrival among the tribes has made him terrible, adored, and impossible for anyone to judge as an ordinary man.",
+      "snapshot": "Kurtz fills the thoughts and emotions of everyone who speaks of him, a man who once threatened to shoot the Russian over a small lot of ivory and could do so, having nothing on earth to prevent him. He suffers, hates what he has become, and yet cannot get away, disappearing for weeks into the villages to forget himself. His appetite for more ivory has got the better of his less material aspirations, and he has come down to the river much worse — a figure whose name rings in the air and pulls Marlow upstream."
+    },
+    {
+      "id": "captain",
+      "primary_name": "Captain",
+      "aliases": [],
+      "importance": "minor",
+      "first_appearance": "0000-i",
+      "short_bio": "The Swedish captain of the steamer that takes Marlow to the Outer Station.",
+      "snapshot": null
+    },
+    {
+      "id": "fresleven",
+      "primary_name": "Fresleven",
+      "aliases": [],
+      "importance": "minor",
+      "first_appearance": "0000-i",
+      "short_bio": "The previous captain of the steamer, killed in a dispute over hens.",
+      "snapshot": null
+    },
+    {
+      "id": "van_shuyten",
+      "primary_name": "Van Shuyten",
+      "aliases": [
+        "old Van Shuyten"
+      ],
+      "importance": "minor",
+      "first_appearance": "0000-i",
+      "short_bio": "A trading company director who helped Marlow get his appointment.",
+      "snapshot": null
+    }
+  ]
+}

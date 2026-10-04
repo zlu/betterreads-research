@@ -1,0 +1,41 @@
+{
+  "chapters": [
+    {
+      "chapter_id": "0000-i",
+      "themes": [
+        {
+          "theme_id": "the_meaning_of_work",
+          "score": 0.4419
+        },
+        {
+          "theme_id": "madness_and_isolation",
+          "score": 0.422
+        },
+        {
+          "theme_id": "the_wilderness_as_a_force",
+          "score": 0.3989
+        },
+        {
+          "theme_id": "silence_and_communication",
+          "score": 0.3881
+        },
+        {
+          "theme_id": "darkness_and_the_human_soul",
+          "score": 0.3811
+        },
+        {
+          "theme_id": "colonialism_and_imperialism",
+          "score": 0.3589
+        },
+        {
+          "theme_id": "greed_and_exploitation",
+          "score": 0.3428
+        },
+        {
+          "theme_id": "hypocrisy_of_civilization",
+          "score": 0.2893
+        }
+      ]
+    }
+  ]
+}

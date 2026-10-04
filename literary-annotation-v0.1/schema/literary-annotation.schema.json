@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://www.betterreads.dev/research/literary-annotation-v0.1/schema/literary-annotation.schema.json",
+  "title": "BetterReads Literary Annotation Sample",
+  "type": "object",
+  "required": [
+    "metadata",
+    "chapter_map",
+    "chapters",
+    "characters",
+    "themes",
+    "timeline",
+    "glossary",
+    "relationships",
+    "theme_chapter_scores"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "description": "Dataset + sample provenance, licenses, and counts.",
+      "required": ["dataset_id", "dataset_version", "book", "selection", "licenses"]
+    },
+    "chapter_map": {
+      "type": "object",
+      "properties": {
+        "chapters": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "title", "order"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "description": "Canonical chapter_id: NNNN-slug"
+              },
+              "title": { "type": "string" },
+              "full_title": { "type": "string" },
+              "order": { "type": "integer" }
+            }
+          }
+        }
+      }
+    },
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "text"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "order": { "type": "integer" },
+          "text": {
+            "type": "string",
+            "description": "Public-domain chapter plain text used for reading/annotation alignment"
+          },
+          "license": { "type": "object" }
+        }
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "primary_name"],
+        "properties": {
+          "id": { "type": "string" },
+          "primary_name": { "type": "string" },
+          "aliases": { "type": "array", "items": { "type": "string" } },
+          "importance": { "type": "string", "enum": ["major", "minor"] },
+          "first_appearance": { "type": "string" },
+          "short_bio": { "type": ["string", "null"] },
+          "snapshot": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "description": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "summary", "chapter_id"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "summary": { "type": "string" },
+          "chapter_id": { "type": "string" },
+          "characters_involved": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    },
+    "glossary": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "term", "explanation"],
+        "properties": {
+          "id": { "type": "string" },
+          "term": { "type": "string" },
+          "explanation": { "type": ["string", "null"] },
+          "category": { "type": ["string", "null"] },
+          "selection": { "type": "string" }
+        }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "properties": {
+        "nodes": { "type": "array" },
+        "edges": { "type": "array" }
+      }
+    },
+    "theme_chapter_scores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["chapter_id", "themes"],
+        "properties": {
+          "chapter_id": { "type": "string" },
+          "themes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["theme_id", "score"],
+              "properties": {
+                "theme_id": { "type": "string" },
+                "score": { "type": "number" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
