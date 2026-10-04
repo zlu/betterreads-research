@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://www.betterreads.dev/research/literary-annotation-v0.1/schema/literary-annotation.schema.json",
+  "$id": "https://raw.githubusercontent.com/zlu/betterreads-research/main/literary-annotation-v0.1/schema/literary-annotation.schema.json",
   "title": "BetterReads Literary Annotation Sample",
   "type": "object",
   "required": [

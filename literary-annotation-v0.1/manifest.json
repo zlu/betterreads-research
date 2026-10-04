@@ -2,7 +2,7 @@
   "dataset_id": "betterreads-literary-annotation-v0.1",
   "version": "0.1.0",
   "title": "BetterReads Literary Annotation Dataset",
-  "updated_at": "2026-10-04T11:49:33Z",
+  "updated_at": "2026-10-04T11:53:25Z",
   "samples": [
     {
       "sample_id": "heart_of_darkness_se__0000-i",
