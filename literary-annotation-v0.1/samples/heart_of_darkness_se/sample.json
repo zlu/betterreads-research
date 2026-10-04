@@ -2,7 +2,7 @@
   "metadata": {
     "dataset_id": "betterreads-literary-annotation-v0.1",
     "dataset_version": "0.1.0",
-    "generated_at": "2026-10-04T11:56:18Z",
+    "generated_at": "2026-10-04T12:17:07Z",
     "sample_id": "heart_of_darkness_se__0000-i",
     "book": {
       "catalog_id": "heart_of_darkness_se",
@@ -41,7 +41,9 @@
     },
     "attribution": {
       "creator": "Zhao Lu / BetterReads",
-      "citation_text": "Zhao Lu. BetterReads Literary Annotation Dataset v0.1.0 (Heart of Darkness, Part I sample). BetterReads Research, 2026. https://github.com/zlu/betterreads-research"
+      "citation_text": "Zhao Lu. BetterReads Literary Annotation Dataset v0.1.0 (Heart of Darkness, Part I sample). BetterReads Research, 2026. https://doi.org/10.5281/zenodo.23136542",
+      "doi": "10.5281/zenodo.23136542",
+      "doi_concept": "10.5281/zenodo.23136541"
     },
     "counts": {
       "chapters": 1,

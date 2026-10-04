@@ -22,9 +22,10 @@ Annotations: CC-BY-4.0. Source text: public domain (US), via Standard Ebooks bas
 
 ## Cite
 
-> Zhao Lu. *BetterReads Literary Annotation Dataset* v0.1.0 (Heart of Darkness, Part I sample). BetterReads Research, 2026. https://github.com/zlu/betterreads-research
+> Zhao Lu. *BetterReads Literary Annotation Dataset* v0.1.0 (Heart of Darkness, Part I sample). BetterReads Research, 2026. https://doi.org/10.5281/zenodo.23136542
 
 ## Links
 
+- DOI: https://doi.org/10.5281/zenodo.23136542
 - GitHub: https://github.com/zlu/betterreads-research
 - Notes: https://www.betterreads.dev/research/ai-assisted-literary-reading

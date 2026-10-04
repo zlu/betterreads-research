@@ -2,8 +2,11 @@
 
 Citeable methodology and a small literary annotation sample for **AI-assisted reading of difficult books**.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23136542.svg)](https://doi.org/10.5281/zenodo.23136542)
+
 BetterReads is an AI-assisted literary reading platform that helps readers understand difficult books through structured semantic annotation, contextual explanation, and interactive literary knowledge.
 
+**DOI:** [10.5281/zenodo.23136542](https://doi.org/10.5281/zenodo.23136542)  
 **Site:** [betterreads.dev/research](https://www.betterreads.dev/research)  
 **App:** [betterreads.dev](https://www.betterreads.dev)
 
@@ -39,4 +42,4 @@ Annotations are [CC-BY-4.0](LICENSE). Source text in the sample is public domain
 
 ## Cite
 
-> Zhao Lu. *BetterReads Literary Annotation Dataset* v0.1.0 (Heart of Darkness, Part I sample). BetterReads Research, 2026. https://github.com/zlu/betterreads-research
+> Zhao Lu. *BetterReads Literary Annotation Dataset* v0.1.0 (Heart of Darkness, Part I sample). BetterReads Research, 2026. https://doi.org/10.5281/zenodo.23136542

@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this dataset, please cite it."
+message: "If you use this dataset, please cite it using the DOI."
 title: "BetterReads Literary Annotation Dataset"
 version: "0.1.0"
 date-released: "2026-10-04"
@@ -22,5 +22,11 @@ keywords:
   - public domain
 license: CC-BY-4.0
 repository-code: "https://github.com/zlu/betterreads-research"
-url: "https://github.com/zlu/betterreads-research"
-identifiers: []
+url: "https://doi.org/10.5281/zenodo.23136542"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23136542
+    description: This version
+  - type: doi
+    value: 10.5281/zenodo.23136541
+    description: All versions (concept DOI)
